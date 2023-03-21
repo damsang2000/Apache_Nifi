@@ -1,0 +1,6 @@
+2023-03-20 08:40:04,083 WARN [main] deprecation.org.apache.nifi.bootstrap.RunNiFi Support for Java 8 is deprecated. Java 11 is the minimum recommended version
+org.apache.nifi.deprecation.log.DeprecationException: Reference Class [org.apache.nifi.bootstrap.RunNiFi] ClassLoader [sun.misc.Launcher$AppClassLoader@5451c3a8]
+	at org.apache.nifi.deprecation.log.StandardDeprecationLogger.getExtendedArguments(StandardDeprecationLogger.java:63)
+	at org.apache.nifi.deprecation.log.StandardDeprecationLogger.warn(StandardDeprecationLogger.java:54)
+	at org.apache.nifi.bootstrap.RunNiFi.start(RunNiFi.java:1226)
+	at org.apache.nifi.bootstrap.RunNiFi.main(RunNiFi.java:297)
